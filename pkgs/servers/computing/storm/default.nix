@@ -4,7 +4,7 @@
 
 stdenv.mkDerivation rec {
   name = "apache-storm-" + version;
-  version = "1.0.1";
+  version = "1.2.1";
   src = fetchurl {
     url =
     "mirror://apache/storm/${name}/${name}.tar.gz";
